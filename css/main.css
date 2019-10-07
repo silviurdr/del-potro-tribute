@@ -1,0 +1,394 @@
+body, html {
+    margin: 0 auto;
+    font-family: Helvetica, sans-serif;
+    background-color: #d5eafd;
+}
+
+.row {
+    margin: 0;
+    display: block!important;
+}
+
+.container-fluid {
+    margin: 0 auto;
+    background-color: #d5eafd;
+    padding: 0;
+    max-width: 1500px;
+}
+
+
+/****************************
+    *  HEADER SECTION  *
+***************************/
+
+.header-container {
+        margin-left: auto;
+        margin-right: auto;
+}
+
+.header-image-container {
+    padding: 0;
+    margin-bottom: 10em;
+}
+
+.header-delpo {
+    color: white;
+    font-size: 8.5em;
+    position: absolute;
+    top: 150px;
+    right: 0em;
+    font-weight: 700;
+    width: 50%;
+    font-family: 'Merriweather Sans', sans-serif;
+}
+
+.header-image-container {
+    text-align: center;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.del-potro-header {
+    margin: 0 auto;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.del-potro-name {
+    color: black;
+    font-weight: 700;
+    font-size: 60px;
+    text-align: center;
+    font-size: 5.5em;
+    margin: 0 0 5% 0;
+    background: repeating-linear-gradient(
+        to right,
+        #d5eafd,
+        #d5eafd 100px,
+        transparent 100px,
+        transparent 200px);
+        width: 100%;
+        margin: 0 auto;
+        padding: 1em 0;
+        background-color: white;
+}
+
+.sub-header-title {
+    font-size: 0.5em;
+    font-weight: 300;
+    color: black;
+    letter-spacing: 1px;
+}
+
+
+/********************************
+    *  MAIN CONTENT SECTION  * 
+*******************************/
+
+.del-potro-intro {
+    margin-top: 3em;
+    background-color: white;
+    color: black;
+    font-size: 2em;
+    width: 100%;
+    padding: 1em;
+}
+
+p {
+    margin: 0;
+}
+
+.career-header-container, .career-highlights-container, .best-moments-container {
+    text-align: center;
+    margin-top: 8em;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    padding-top: 6em;
+    padding-bottom: 6em;
+    background: repeating-linear-gradient( to right, #d5eafd, #d5eafd 100px, transparent 100px, transparent 200px);
+    background-color: white;
+    text-transform: uppercase;
+    font-size: 0.8em;
+}
+
+.career-header, .career-highlights-header, .best-moments-header {
+    font-size: 5em;
+    letter-spacing: 4px;
+}
+
+.carousel {
+    max-width: 800px !important;
+    margin: 8em auto;
+}
+
+.car1, .car2, .car3, .car4, .car5, .car6, .car7, .car8, .car9 {
+    width: 800px;
+    height: 600px;
+}
+
+.car1 {
+    background-image: url("/images/car1.jpg");
+}
+
+.car2 {
+    background-image: url("/images/car2.jpg");
+}
+
+.car3 {
+    background-image: url("/images/car3.jpg");
+}
+
+.car4 {
+    background-image: url("/images/car4.jpg");
+}
+
+.car5 {
+    background-image: url("/images/car5.jpg");
+}
+
+.car6 {
+    background-image: url("/images/car6.jpg");
+}
+
+.car7 {
+    background-image: url("/images/car7.jpg");
+}
+
+.car8 {
+    background-image: url("/images/car8.jpg");
+}
+
+.car9 {
+    background-image: url("/images/car9.jpg");
+}
+
+.carousel-caption {
+    color: black;
+    background: rgba(255, 255, 255, 0.9);
+}
+
+.career-highlights-years {
+    max-width: 1000px;
+    margin: 8em auto;
+    color: #212529;
+    background-color: white;
+    padding: 0em 6em 4em 6em;
+}
+
+ul li {
+    list-style-type: none;
+}
+
+ul {
+    padding: 0;
+}
+
+.career-highlights-text {
+    font-size: 2em;
+    margin-top: 1em;
+    padding-top: 2em;
+    font-family: Helvetica, sans-serif;
+}
+
+.year-highlight {
+    margin-top: 1em;
+}
+
+.year {
+    font-weight: 700;
+}
+
+.video-moments {
+    margin-top: 8em;
+    text-align: center;
+}
+
+.del-potro-video {
+    margin-bottom: 8em;
+    max-width: 100%;
+    max-height: 100%;
+    padding: 0em 2em;
+}
+
+.del-potro-video-description {
+    font-size: 2em;
+    margin: 0 auto;
+    margin-bottom: 2em;
+    max-width: 1000px;
+    font-family: Helvetica, sans-serif; 
+    color: #212529;
+    padding: 1.2em 2em;
+    border-top: 2px solid black;
+    background-color: white;
+}
+
+
+/****************************
+    *  FOOTER SECTION  *
+***************************/
+
+
+.footer-container {
+    background-color: white;
+    border-top: 4px solid white;
+}
+
+footer {
+    background: repeating-linear-gradient(
+        to right,
+        #d5eafd,
+        #d5eafd 100px,
+        transparent 100px,
+        transparent 200px);
+    height: 10em;
+    text-align: center;
+}
+
+.footer-text {
+    display: inline-block;
+    margin: 0 auto;
+    line-height: 5em;
+    font-size: 1.9em;
+    font-weight: 600;
+}
+
+.footer-text a {
+    color: black;
+    text-decoration: underline;
+}
+
+.footer-text a:hover {
+    color: #404040;
+    text-decoration: none;
+}
+
+
+/***************************
+    *  STYLE FOR MOBILE * 
+**************************/
+
+
+@media screen and (max-width: 500px) {
+
+
+    .del-potro-name {
+       font-size: 2.8em;
+    }
+
+    .sub-header-title {
+       font-size: 0.6em;
+     }
+
+    .del-potro-intro {
+        font-size: 1.4em;
+        line-height: 1.6em;
+    }
+
+    .career-header-container {
+        margin-top: 6em;
+        padding-top: 3em;
+        padding-bottom: 3em;
+        padding-left: 1em;
+        padding-right: 1em;
+    }
+
+    .career-header {
+        font-size: 2.4em;
+        letter-spacing: 2px;
+        font-weight: 600;
+    }
+
+    .carousel {
+        max-width: 320px !important;
+        margin: 6em auto;
+    }
+
+    .car1, .car2, .car3, .car4, .car5, .car6, .car7, .car8, .car9 {
+        width: 320px;
+        height: 320px;
+    }
+
+    .car1 {
+        background-image: url("/images/carmob1.jpg");
+    }
+    
+    .car2 {
+        background-image: url("/images/carmob2.jpg");
+    }
+    
+    .car3 {
+        background-image: url("/images/carmob3.jpg");
+    }
+    
+    .car4 {
+        background-image: url("/images/carmob4.jpg");
+    }
+    
+    .car5 {
+        background-image: url("/images/carmob5.jpg");
+    }
+    
+    .car6 {
+        background-image: url("/images/carmob6.jpg");
+    }
+    
+    .car7 {
+        background-image: url("/images/carmob7.jpg");
+    }
+    
+    .car8 {
+        background-image: url("/images/carmob8.jpg");
+    }
+    
+    .car9 {
+        background-image: url("/images/carmob9.jpg");
+    }
+
+    .career-photo-caption {
+        font-size: 1.6em;
+    }
+
+    .career-photo-details {
+        font-size: 1.1em;
+    }
+
+    .career-highlights-years {
+        margin: 4em auto;
+        padding: 0em 3em 2em 3em;
+    }
+
+    .career-highlights-text {
+        font-size: 1.4em;
+        padding-top: 1em;
+        font-family: Helvetica, sans-serif;
+    }
+
+    .video-moments {
+        margin-top: 4em;
+    }
+
+    .video-wrapper {
+        width: 100%;
+        height: 280px;
+    }
+
+    .video-wrapper:last-child {
+        margin-bottom: 3em;
+    }
+    
+    .del-potro-video-description {
+        font-size: 1.4em;
+        margin-top: 2em;
+        margin-bottom: 1em;
+    }
+
+    footer {
+        height: 5em;
+    }
+
+    .footer-text {
+        font-size: 1.5em;
+        line-height: 3em;
+    }
+
+}
