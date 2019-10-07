@@ -127,39 +127,39 @@ p {
 }
 
 .car1 {
-    background-image: url("/images/car1.jpg");
+    background-image: url("../images/car1.jpg");
 }
 
 .car2 {
-    background-image: url("/images/car2.jpg");
+    background-image: url("../images/car2.jpg");
 }
 
 .car3 {
-    background-image: url("/images/car3.jpg");
+    background-image: url("../images/car3.jpg");
 }
 
 .car4 {
-    background-image: url("/images/car4.jpg");
+    background-image: url("../images/car4.jpg");
 }
 
 .car5 {
-    background-image: url("/images/car5.jpg");
+    background-image: url("../images/car5.jpg");
 }
 
 .car6 {
-    background-image: url("/images/car6.jpg");
+    background-image: url("../images/car6.jpg");
 }
 
 .car7 {
-    background-image: url("/images/car7.jpg");
+    background-image: url("../images/car7.jpg");
 }
 
 .car8 {
-    background-image: url("/images/car8.jpg");
+    background-image: url("../images/car8.jpg");
 }
 
 .car9 {
-    background-image: url("/images/car9.jpg");
+    background-image: url("../images/car9.jpg");
 }
 
 .carousel-caption {
@@ -309,39 +309,39 @@ footer {
     }
 
     .car1 {
-        background-image: url("/images/carmob1.jpg");
+        background-image: url("../images/carmob1.jpg");
     }
     
     .car2 {
-        background-image: url("/images/carmob2.jpg");
+        background-image: url("../images/carmob2.jpg");
     }
     
     .car3 {
-        background-image: url("/images/carmob3.jpg");
+        background-image: url("../images/carmob3.jpg");
     }
     
     .car4 {
-        background-image: url("/images/carmob4.jpg");
+        background-image: url("../images/carmob4.jpg");
     }
     
     .car5 {
-        background-image: url("/images/carmob5.jpg");
+        background-image: url("../images/carmob5.jpg");
     }
     
     .car6 {
-        background-image: url("/images/carmob6.jpg");
+        background-image: url("../images/carmob6.jpg");
     }
     
     .car7 {
-        background-image: url("/images/carmob7.jpg");
+        background-image: url("../images/carmob7.jpg");
     }
     
     .car8 {
-        background-image: url("/images/carmob8.jpg");
+        background-image: url("../images/carmob8.jpg");
     }
     
     .car9 {
-        background-image: url("/images/carmob9.jpg");
+        background-image: url("../images/carmob9.jpg");
     }
 
     .career-photo-caption {
